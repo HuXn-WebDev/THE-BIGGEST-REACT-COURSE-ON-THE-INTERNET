@@ -1,0 +1,13 @@
+1. npm i -D daisyui@latest
+
+2. https://tailwindcss.com/docs/guides/vite
+
+3. tailwind.config 👇
+
+import daisyui from "daisyui"
+module.exports = {
+  //...
+  plugins: [
+    daisyui,
+  ],
+}
