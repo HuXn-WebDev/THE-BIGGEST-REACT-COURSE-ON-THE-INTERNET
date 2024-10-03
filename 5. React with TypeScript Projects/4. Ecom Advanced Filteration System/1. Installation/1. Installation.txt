@@ -1,0 +1,6 @@
+npm create vite@latest my-react-app --template
+
+npm i axios lucide-react react-router-dom
+
+TailwindCSS Setup
+https://tailwindcss.com/docs/guides/vite
