@@ -1,0 +1,4 @@
+1. Create Types
+2. Create HOC in utils
+3. Impliment the App
+4. Create Components
