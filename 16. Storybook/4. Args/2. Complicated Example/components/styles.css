@@ -1,0 +1,66 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+/* Primary button */
+.button--primary {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Secondary button */
+.button--secondary {
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+/* Full width button */
+.button--fullwidth {
+  width: 100%;
+}
+
+/* Loading state */
+.button--loading {
+  position: relative;
+}
+
+.button__loading-spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.button__icon {
+  margin-right: 8px;
+}
+
+.button__label {
+  display: inline-block;
+}
+
+/* Size variations */
+.button--small {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.button--medium {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.button--large {
+  padding: 12px 24px;
+  font-size: 16px;
+}
