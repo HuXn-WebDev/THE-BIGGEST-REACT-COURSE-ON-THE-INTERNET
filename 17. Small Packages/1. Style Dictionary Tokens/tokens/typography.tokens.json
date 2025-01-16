@@ -1,0 +1,24 @@
+{
+  "fontSizes": {
+    "small": {
+      "value": "0.875rem"
+    },
+    "base": {
+      "value": "1rem"
+    },
+    "large": {
+      "value": "1.25rem"
+    }
+  },
+  "fontWeights": {
+    "normal": {
+      "value": "400"
+    },
+    "medium": {
+      "value": "500"
+    },
+    "bold": {
+      "value": "700"
+    }
+  }
+}

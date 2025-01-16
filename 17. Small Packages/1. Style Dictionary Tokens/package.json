@@ -1,0 +1,17 @@
+{
+  "name": "style-dictionary-tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "style-dictionary": "^4.3.0",
+    "style-dictionary-utils": "^4.0.3"
+  }
+}
