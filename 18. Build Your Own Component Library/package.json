@@ -1,7 +1,7 @@
 {
   "name": "component-lib",
   "version": "1.0.0",
-"main": "dist/cjs/index.js",
+  "main": "dist/cjs/index.js",
   "files": [
     "dist"
   ],
@@ -27,11 +27,14 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
     "@types/react": "^19.0.7",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
     "react": "^19.0.0",
     "rollup": "^4.30.1",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
+    "tailwindcss": "^3.4.17",
     "tslib": "^2.8.1",
     "typescript": "^5.7.3"
   }
