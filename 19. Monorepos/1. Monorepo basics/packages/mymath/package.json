@@ -1,0 +1,10 @@
+{
+  "name": "mymath",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "mymath": "1.0.0"
+  }
+}
