@@ -1,0 +1,19 @@
+{
+  "shadows": {
+    "xs": {
+      "value": "0px 1px 2px rgba(0, 0, 0, 0.1)"
+    },
+    "s": {
+      "value": "0px 2px 4px rgba(0, 0, 0, 0.15)"
+    },
+    "m": {
+      "value": "0px 4px 6px rgba(0, 0, 0, 0.2)"
+    },
+    "l": {
+      "value": "0px 6px 12px rgba(0, 0, 0, 0.25)"
+    },
+    "xl": {
+      "value": "0px 8px 16px rgba(0, 0, 0, 0.3)"
+    }
+  }
+}

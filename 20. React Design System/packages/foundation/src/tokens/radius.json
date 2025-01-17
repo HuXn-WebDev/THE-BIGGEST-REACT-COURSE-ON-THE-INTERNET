@@ -1,0 +1,37 @@
+{
+  "radius": {
+    "tiny": {
+      "value": "2px"
+    },
+    "extra-small": {
+      "value": "4px"
+    },
+    "small": {
+      "value": "6px"
+    },
+    "medium-small": {
+      "value": "8px"
+    },
+    "medium": {
+      "value": "12px"
+    },
+    "large": {
+      "value": "16px"
+    },
+    "extra-large": {
+      "value": "20px"
+    },
+    "super-large": {
+      "value": "24px"
+    },
+    "huge": {
+      "value": "32px"
+    },
+    "gigantic": {
+      "value": "40px"
+    },
+    "full": {
+      "value": "999px"
+    }
+  }
+}

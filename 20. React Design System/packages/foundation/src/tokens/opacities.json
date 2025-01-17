@@ -1,0 +1,19 @@
+{
+  "opacities": {
+    "opaque": {
+      "value": "1"
+    },
+    "semiOpaque": {
+      "value": "0.75"
+    },
+    "transparent": {
+      "value": "0.5"
+    },
+    "lightTransparent": {
+      "value": "0.25"
+    },
+    "veryTransparent": {
+      "value": "0.1"
+    }
+  }
+}

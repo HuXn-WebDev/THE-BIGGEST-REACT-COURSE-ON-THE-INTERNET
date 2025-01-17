@@ -1,4 +1,7 @@
 {
   "name": "@huxn-ds/foundation",
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "style-dictionary": "^4.3.0"
+  }
 }
