@@ -14,11 +14,10 @@
     "declaration": true,
     "removeComments": false,
     "sourceMap": true,
-    "module": "ESNext",
     "lib": ["esnext", "dom"],
     "baseUrl": ".",
     "paths": {
-      "@huxn-ds/*": ["packages/*/lib"]
+      "@huxn-ds/": ["packages/*/lib"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,

@@ -1,7 +1,15 @@
 {
   "name": "@huxn-ds/foundation",
   "packageManager": "yarn@4.6.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build-tokens": "style-dictionary build --config style-dictionary.config.js",
+    "build-style-dictionary": "style-dictionary build --config style-dictionary.config.js",
+    "build": "yarn build-tokens && tsc"
+  },
   "devDependencies": {
-    "style-dictionary": "^4.3.0"
+    "style-dictionary": "^4.3.0",
+    "typescript": "^5.7.3"
   }
 }

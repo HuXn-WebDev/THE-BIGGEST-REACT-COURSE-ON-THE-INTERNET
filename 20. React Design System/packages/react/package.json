@@ -2,12 +2,23 @@
   "name": "@huxn-ds/react",
   "packageManager": "yarn@4.6.0",
   "scripts": {
-    "build": "tsc"
+    "build": "yarn build:css && tsc",
+    "watch:css": "npx tailwindcss -i ./src/input.css -o ./lib/output.css --watch",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./lib/output.css"
   },
   "dependencies": {
     "@huxn-ds/foundation": "workspace:^"
   },
   "devDependencies": {
-    "typescript": "4.7.2"
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   }
 }
