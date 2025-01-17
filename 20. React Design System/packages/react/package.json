@@ -1,7 +1,13 @@
 {
   "name": "@huxn-ds/react",
   "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@huxn-ds/foundation": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "4.7.2"
   }
 }

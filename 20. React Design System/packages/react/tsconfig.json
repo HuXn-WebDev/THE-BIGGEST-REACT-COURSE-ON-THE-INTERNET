@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./lib",
+    "downlevelIteration": true,
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "**/*.test.*", "lib"]
+}
