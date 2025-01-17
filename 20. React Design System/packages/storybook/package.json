@@ -1,0 +1,9 @@
+{
+  "name": "@huxn-ds/storybook",
+  "packageManager": "yarn@4.6.0",
+  "private": true,
+  "dependencies": {
+    "@huxn-ds/foundation": "workspace:^",
+    "@huxn-ds/react": "workspace:^"
+  }
+}
