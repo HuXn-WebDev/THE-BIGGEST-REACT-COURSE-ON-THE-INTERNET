@@ -1,8 +1,11 @@
-import { useContext } from "react";
+import { use } from "react";
 import { ThemeContext } from "./Theme";
-
 const Card = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const context = use(ThemeContext);
+  if(!context)
+    throw new Error("useTheme must be provided within a ThemeProvider")
+
+  const{theme,toggleTheme} =context
 
   return (
     <div
