@@ -1,9 +1,11 @@
-import { use } from "react";
+import { useContext } from "react";
 import { ThemeContext } from "./Theme";
-
 const Card = () => {
-  // Now by using react 19, we don't have to use "useContext" we can replace that with "use"
-  const { theme, toggleTheme } = use(ThemeContext);
+  const context = useContext(ThemeContext);
+  if(!context)
+    throw new Error("useTheme must be provided within a ThemeProvider")
+
+  const{theme,toggleTheme} =context
 
   return (
     <div
